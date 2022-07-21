@@ -92,9 +92,15 @@ header{
     border-radius: 10px;
     border: 1px solid #E8E8E8;
 }
+.side_nav button a{
+    text-decoration: none;
+    
+    color: #161616;
+}
 #red_btn{
     background-color: #DD0000;
     color: #FFFFFF;
+    border:none;
 }
 .blog_posts{
     width:74%;
