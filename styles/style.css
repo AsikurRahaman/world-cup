@@ -1,0 +1,56 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Utilities */
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: font-family: 'Poppins', sans-serif;
+
+}
+
+/* Banner part */
+header{
+    width: 1321px;
+    color:#FFFFFF;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+}
+.top_banner_left{
+    padding: 111px 0 105px 106px;
+}
+.top_banner_left h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+.top_banner_left p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.watch_live_btn{
+    margin-top: 30px;
+    color:#FFFFFF;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+.top_banner_right{
+    position: relative;
+}
+.banner_img{
+    position: absolute;
+    bottom:0;
+    width: 581px;
+height: 613px;
+}
